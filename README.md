@@ -1,29 +1,29 @@
-# 🤖 AI Email Triage Agent
+# 📧 AI Email Triage Agent
 
-AI-powered agent that connects to Gmail via OAuth, 
-analyzes emails using Claude AI, auto-categorizes 
-by urgency & topic, and drafts smart replies — 
-runs locally with a dark UI.
+An AI agent that automatically categorizes emails by urgency and topic, and drafts replies — powered by Groq (LLaMA 3.3) and LangChain.
 
-## 🎯 Problem It Solves
-Manual email sorting wastes time. This agent does 
-it automatically — zero human effort needed.
+## 🔗 Live Demo
+👉 [https://ai-email-triage-agent.onrender.com/demo](https://ai-email-triage-agent.onrender.com/demo)
+
+## 💡 Problem It Solves
+Inbox overload. This agent reads emails, classifies them as High/Medium/Low urgency, and auto-drafts replies for non-critical ones.
 
 ## ⚡ Features
-- Gmail OAuth integration
-- Auto-categorization by urgency & topic
-- Smart reply drafting via Claude API
-- Clean dark UI
+- Auto-categorizes emails by urgency (High / Medium / Low) and topic
+- Flags high urgency emails for human attention
+- Drafts replies for medium and low urgency emails
+- REST API via FastAPI — callable from any frontend
 
-## 🛠️ Tech Stack
-- Python
-- LangChain
-- Claude API (Anthropic)
-- Gmail API
+## 🛠 Tech Stack
+- Python, FastAPI, LangChain
+- Groq API (LLaMA 3.3 70B)
+- Deployed on Render
 
-## 🚀 Setup
+## 🚀 Run Locally
 ```bash
-git clone https://github.com/anuragtiwari7.../
+git clone https://github.com/anuragtiwari73219-byte/ai-email-triage-agent
 cd ai-email-triage-agent
 pip install -r requirements.txt
-python main.py
+# Add GROQ_API_KEY to .env
+uvicorn demo_app:app --reload
+```
