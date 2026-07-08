@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Email Triage Agent</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #171a21;
+    --panel-border: #262b36;
+    --text: #e7e9ee;
+    --text-dim: #9aa1af;
+    --accent: #4f8cff;
+    --accent-dim: #2c3a5c;
+    --high: #ff5f6d;
+    --med: #ffb84f;
+    --low: #4fd18b;
+    --radius: 10px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  header {
+    padding: 24px 32px;
+    border-bottom: 1px solid var(--panel-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  header h1 { font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+  header p { margin: 4px 0 0; color: var(--text-dim); font-size: 13px; }
+  .status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    font-size: 13px;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--text-dim); }
+  .dot.on { background: var(--low); }
+  .dot.off { background: var(--high); }
+  main { max-width: 1100px; margin: 0 auto; padding: 32px; }
+  .actions { display: flex; gap: 12px; margin-bottom: 24px; flex-wrap: wrap; }
+  button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    border-radius: var(--radius);
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: opacity 0.15s ease, transform 0.1s ease;
+  }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  button:not(:disabled):active { transform: scale(0.98); }
+  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-primary:not(:disabled):hover { opacity: 0.9; }
+  .btn-secondary { background: var(--panel); color: var(--text); border: 1px solid var(--panel-border); }
+  .btn-secondary:not(:disabled):hover { border-color: var(--accent); }
+  .progress-wrap {
+    display: none;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: var(--text-dim);
+  }
+  .progress-wrap.show { display: flex; }
+  .progress-bar { flex: 1; height: 6px; border-radius: 999px; background: var(--panel-border); overflow: hidden; }
+  .progress-fill { height: 100%; background: var(--accent); width: 0%; transition: width 0.3s ease; }
+  .error-banner {
+    display: none;
+    background: rgba(255, 95, 109, 0.12);
+    border: 1px solid rgba(255, 95, 109, 0.35);
+    color: #ffb1b7;
+    padding: 12px 16px;
+    border-radius: var(--radius);
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .error-banner.show { display: block; }
+  .empty-state { text-align: center; padding: 80px 20px; color: var(--text-dim); }
+  .empty-state h2 { color: var(--text); font-size: 16px; margin-bottom: 8px; }
+  .empty-state p { font-size: 14px; margin: 0; }
+  .email-list { display: flex; flex-direction: column; gap: 12px; }
+  .email-card { background: var(--panel); border: 1px solid var(--panel-border); border-radius: var(--radius); padding: 16px 18px; }
+  .email-top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 8px; }
+  .email-subject { font-size: 14px; font-weight: 600; margin: 0 0 2px; }
+  .email-from { font-size: 12px; color: var(--text-dim); }
+  .tags { display: flex; gap: 6px; flex-shrink: 0; }
+  .tag { font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.03em; }
+  .tag.urgency-high { background: rgba(255,95,109,0.15); color: var(--high); }
+  .tag.urgency-medium { background: rgba(255,184,79,0.15); color: var(--med); }
+  .tag.urgency-low { background: rgba(79,209,139,0.15); color: var(--low); }
+  .tag.topic { background: var(--accent-dim); color: #a9c1ff; }
+  .tag.attention { background: rgba(255,95,109,0.25); color: #ffdadd; }
+  .email-summary { font-size: 13px; color: var(--text-dim); margin: 8px 0; line-height: 1.5; }
+  .email-draft {
+    margin-top: 10px;
+    padding: 10px 12px;
+    background: var(--bg);
+    border: 1px solid var(--panel-border);
+    border-radius: 8px;
+    font-size: 12.5px;
+    color: var(--text-dim);
+    white-space: pre-wrap;
+  }
+  .email-draft-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+    margin-bottom: 4px;
+    display: block;
+  }
+  .email-actions { margin-top: 10px; }
+  .email-actions button { padding: 6px 12px; font-size: 12.5px; }
+  footer { text-align: center; padding: 24px; color: var(--text-dim); font-size: 12px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>AI Email Triage Agent</h1>
+    <p>Connect Gmail, run triage, review results</p>
+  </div>
+  <div class="status-pill" id="statusPill">
+    <span class="dot off" id="statusDot"></span>
+    <span id="statusText">Not connected</span>
+  </div>
+</header>
+
+<main>
+  <div class="error-banner" id="errorBanner"></div>
+
+  <div class="actions">
+    <button class="btn-primary" id="connectBtn">Connect Gmail</button>
+    <button class="btn-secondary" id="triageBtn" disabled>Run Triage</button>
+  </div>
+
+  <div class="progress-wrap" id="progressWrap">
+    <span id="progressText">0 / 0</span>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
+
+  <div id="resultsArea">
+    <div class="empty-state" id="emptyState">
+      <h2>No emails triaged yet</h2>
+      <p>Connect your Gmail account, then run triage to see results here.</p>
+    </div>
+    <div class="email-list" id="emailList"></div>
+  </div>
+</main>
+
+<footer>AI Email Triage Agent &middot; local dashboard</footer>
+
+<script>
+(function () {
+  const connectBtn = document.getElementById('connectBtn');
+  const triageBtn = document.getElementById('triageBtn');
+  const statusDot = document.getElementById('statusDot');
+  const statusText = document.getElementById('statusText');
+  const errorBanner = document.getElementById('errorBanner');
+  const progressWrap = document.getElementById('progressWrap');
+  const progressFill = document.getElementById('progressFill');
+  const progressText = document.getElementById('progressText');
+  const emptyState = document.getElementById('emptyState');
+  const emailList = document.getElementById('emailList');
+
+  let pollHandle = null;
+
+  function showError(msg) {
+    errorBanner.textContent = msg;
+    errorBanner.classList.add('show');
+  }
+  function clearError() {
+    errorBanner.classList.remove('show');
+    errorBanner.textContent = '';
+  }
+
+  function setAuthedUI(authenticated, email) {
+    if (authenticated) {
+      statusDot.className = 'dot on';
+      statusText.textContent = email ? `Connected: ${email}` : 'Connected';
+      connectBtn.textContent = 'Reconnect Gmail';
+      triageBtn.disabled = false;
+    } else {
+      statusDot.className = 'dot off';
+      statusText.textContent = 'Not connected';
+      connectBtn.textContent = 'Connect Gmail';
+      triageBtn.disabled = true;
+    }
+  }
+
+  async function checkAuthStatus() {
+    try {
+      const res = await fetch('/api/auth/status');
+      const data = await res.json();
+      setAuthedUI(data.authenticated, data.email);
+    } catch (e) {}
+  }
+
+  connectBtn.addEventListener('click', async () => {
+    clearError();
+    connectBtn.disabled = true;
+    connectBtn.textContent = 'Connecting...';
+    try {
+      const res = await fetch('/api/auth', { method: 'POST' });
+      const data = await res.json();
+      if (data.status === 'authenticated') {
+        setAuthedUI(true, data.email);
+      } else {
+        showError(data.message || 'Authentication failed.');
+        setAuthedUI(false);
+      }
+    } catch (e) {
+      showError('Could not reach the server to authenticate.');
+      setAuthedUI(false);
+    } finally {
+      connectBtn.disabled = false;
+    }
+  });
+
+  triageBtn.addEventListener('click', async () => {
+    clearError();
+    triageBtn.disabled = true;
+    triageBtn.textContent = 'Running...';
+    progressWrap.classList.add('show');
+    progressFill.style.width = '0%';
+    progressText.textContent = '0 / 0';
+
+    try {
+      const res = await fetch('/api/triage', { method: 'POST' });
+      const data = await res.json();
+      if (res.status === 401) {
+        showError(data.error || 'Not authenticated. Connect Gmail first.');
+        triageBtn.disabled = false;
+        triageBtn.textContent = 'Run Triage';
+        progressWrap.classList.remove('show');
+        return;
+      }
+      if (res.status === 409) {
+        showError(data.error || 'Triage already in progress.');
+      }
+      pollTriageStatus();
+    } catch (e) {
+      showError('Could not reach the server to start triage.');
+      triageBtn.disabled = false;
+      triageBtn.textContent = 'Run Triage';
+      progressWrap.classList.remove('show');
+    }
+  });
+
+  function pollTriageStatus() {
+    if (pollHandle) clearInterval(pollHandle);
+    pollHandle = setInterval(async () => {
+      try {
+        const res = await fetch('/api/triage/status');
+        const data = await res.json();
+
+        progressText.textContent = `${data.progress} / ${data.total}`;
+        const pct = data.total > 0 ? (data.progress / data.total) * 100 : 0;
+        progressFill.style.width = pct + '%';
+
+        if (data.error) showError(data.error);
+
+        if (!data.processing) {
+          clearInterval(pollHandle);
+          pollHandle = null;
+          triageBtn.disabled = false;
+          triageBtn.textContent = 'Run Triage';
+          progressWrap.classList.remove('show');
+          loadEmails();
+        }
+      } catch (e) {
+        clearInterval(pollHandle);
+        pollHandle = null;
+        triageBtn.disabled = false;
+        triageBtn.textContent = 'Run Triage';
+        progressWrap.classList.remove('show');
+        showError('Lost connection while checking triage progress.');
+      }
+    }, 1500);
+  }
+
+  function urgencyClass(u) {
+    if (u === 'High') return 'urgency-high';
+    if (u === 'Low') return 'urgency-low';
+    return 'urgency-medium';
+  }
+
+  function renderEmails(emails) {
+    emailList.innerHTML = '';
+    if (!emails || emails.length === 0) {
+      emptyState.style.display = 'block';
+      return;
+    }
+    emptyState.style.display = 'none';
+
+    emails.forEach((email) => {
+      const card = document.createElement('div');
+      card.className = 'email-card';
+
+      const tags = [];
+      tags.push(`<span class="tag ${urgencyClass(email.urgency)}">${email.urgency || 'Medium'}</span>`);
+      if (email.topic) tags.push(`<span class="tag topic">${email.topic}</span>`);
+      if (email.needs_human_attention) tags.push(`<span class="tag attention">Needs attention</span>`);
+
+      let draftHtml = '';
+      if (email.draft_reply) {
+        draftHtml = `
+          <div class="email-draft">
+            <span class="email-draft-label">Draft reply</span>
+            ${escapeHtml(email.draft_reply)}
+          </div>`;
+      }
+
+      card.innerHTML = `
+        <div class="email-top">
+          <div>
+            <p class="email-subject">${escapeHtml(email.subject || '(no subject)')}</p>
+            <p class="email-from">${escapeHtml(email.from || '')}</p>
+          </div>
+          <div class="tags">${tags.join('')}</div>
+        </div>
+        ${email.ai_summary ? `<p class="email-summary">${escapeHtml(email.ai_summary)}</p>` : ''}
+        ${draftHtml}
+        <div class="email-actions">
+          <button class="btn-secondary" data-email-id="${email.id}">
+            ${email.draft_id ? 'Regenerate draft' : 'Generate draft'}
+          </button>
+        </div>
+      `;
+
+      const draftBtn = card.querySelector('button[data-email-id]');
+      draftBtn.addEventListener('click', () => createDraft(email.id, draftBtn));
+
+      emailList.appendChild(card);
+    });
+  }
+
+  async function createDraft(emailId, btn) {
+    clearError();
+    btn.disabled = true;
+    btn.textContent = 'Generating...';
+    try {
+      const res = await fetch('/api/draft', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email_id: emailId }),
+      });
+      const data = await res.json();
+      if (data.error) {
+        showError(data.error);
+        btn.disabled = false;
+        btn.textContent = 'Generate draft';
+        return;
+      }
+      loadEmails();
+    } catch (e) {
+      showError('Could not generate the draft reply.');
+      btn.disabled = false;
+      btn.textContent = 'Generate draft';
+    }
+  }
+
+  async function loadEmails() {
+    try {
+      const res = await fetch('/api/emails');
+      const data = await res.json();
+      renderEmails(data.emails);
+    } catch (e) {
+      showError('Could not load triaged emails.');
+    }
+  }
+
+  function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  checkAuthStatus();
+  loadEmails();
+})();
+</script>
+
+</body>
+</html>

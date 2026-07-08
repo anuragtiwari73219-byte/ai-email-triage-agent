@@ -17,6 +17,7 @@ class EmailTriageAgent:
             self._llm = ChatGroq(
                 model="llama-3.3-70b-versatile",
                 groq_api_key=os.getenv("GROQ_API_KEY"),
+                temperature=0,
             )
         return self._llm
 
@@ -24,9 +25,34 @@ class EmailTriageAgent:
         prompt = ChatPromptTemplate.from_messages([
             ("system", """You are an expert AI email triage assistant. Analyze the given email and categorize it.
 
+Urgency levels (use these exact definitions):
+- "High": requires action within hours; explicit deadline today/tomorrow, or blocks someone else's work right now.
+- "Medium": requires a response or action within a few days; no immediate deadline, but ignoring it has a real consequence (e.g. a social commitment, a routine bill, a job-application follow-up).
+- "Low": no response needed, or purely informational (promotions, automated notifications, receipts).
+
+Topic categories (use these exact definitions):
+- "Job_Alert": automated job listing notifications (LinkedIn, Indeed, Naukri, Glassdoor, Internshala, Jobright, etc.)
+- "Application_Status": updates on an application you submitted (confirmation, status change, interview invite)
+- "Networking": LinkedIn connection requests, messages, "X wants to connect", profile views
+- "Newsletter": recurring digest/newsletter content (industry news, curated roundups)
+- "Promotional": marketing, discounts, product promotions, upsell nudges
+- "Finance": bank statements, bills, payment receipts, financial notifications
+- "Spam": unsolicited, irrelevant, or clearly junk mail
+- "Personal": genuine personal correspondence from real contacts
+- "Other": anything that doesn't fit the above
+
+Examples:
+- "Can we get on a call this week?" -> Medium urgency
+- "Server down, need fix now" -> High urgency
+- "Your order has shipped" -> Low urgency
+- "New job posting notification from LinkedIn/Indeed" -> Job_Alert
+- "Your application status update" -> Application_Status
+- "X wants to connect on LinkedIn" -> Networking
+- "Weekly newsletter/digest content" -> Newsletter
+
 Return your response as a valid JSON object with exactly these fields:
 - "urgency": one of "High", "Medium", "Low"
-- "topic": one of "Work", "Finance", "Promotions", "Personal", "Spam"
+- "topic": one of "Job_Alert", "Application_Status", "Networking", "Newsletter", "Promotional", "Finance", "Spam", "Personal", "Other"
 - "summary": a concise 1-2 sentence summary
 - "needs_human_attention": boolean
 - "reason": brief explanation
@@ -56,7 +82,7 @@ Return ONLY the JSON object."""),
                     end = content.rfind('}') + 1
                     result = json.loads(content[start:end])
                 result.setdefault('urgency', 'Medium')
-                result.setdefault('topic', 'Personal')
+                result.setdefault('topic', 'Other')
                 result.setdefault('summary', '')
                 result.setdefault('needs_human_attention', True)
                 result.setdefault('reason', '')
@@ -70,7 +96,7 @@ Return ONLY the JSON object."""),
 
         return {
             "urgency": "Medium",
-            "topic": "Personal",
+            "topic": "Other",
             "summary": "",
             "needs_human_attention": True,
             "reason": f"Failed: {str(last_error)}",
@@ -78,7 +104,7 @@ Return ONLY the JSON object."""),
 
     def draft_reply(self, email):
         prompt = ChatPromptTemplate.from_messages([
-            ("system", """You are a professional email assistant. Write a concise reply under 150 words. Return ONLY the reply text."""),
+            ("system", """You are a professional email assistant. Write a concise reply under 150 words. Always sign the reply as "Anurag Tiwari" â€” never use a placeholder like "[Your Name]". Return ONLY the reply text."""),
             ("human", "From: {sender}\nSubject: {subject}\n\nBody:\n{body}"),
         ])
         chain = prompt | self.llm
@@ -105,7 +131,7 @@ Return ONLY the JSON object."""),
             email_result = {
                 **email,
                 'urgency': categorization.get('urgency', 'Medium'),
-                'topic': categorization.get('topic', 'Personal'),
+                'topic': categorization.get('topic', 'Other'),
                 'ai_summary': categorization.get('summary', ''),
                 'needs_human_attention': categorization.get('needs_human_attention', False),
                 'reason': categorization.get('reason', ''),
