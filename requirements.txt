@@ -3,3 +3,4 @@ uvicorn
 langchain-groq
 langchain-core
 python-dotenv
+gunicorn
