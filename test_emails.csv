@@ -1,770 +1,101 @@
-from,subject,date,body,expected_urgency,expected_topic
-Tanu Goel <noreply@unstop.news>,Your resume gets 6 Seconds. Make them count.,"Sun, 05 Jul 2026 21:18:28 +0530",Tap to access them! ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿,Low,Promotional
-Jobright Job Alert <noreply@jobright.ai>,ByteDance just posted a 86% match Student Researcher (LLM - Seed) - 2027 Start (BS/MS) role 1 hour ago,"Sun, 5 Jul 2026 15:41:42 +0000","$45/hr - $45/hr / San Jose, CA / 5+ referrals Jobright Instant Alert Always be the first to apply Jobright.ai Job Icon ByteDance Digital Media · Late Stage 86% Student Researcher (LLM - Seed) - 2027",Low,Job_Alert
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,Research Engineer at Aurora,"Sun, 5 Jul 2026 15:29:12 +0000 (UTC)","Your job alert for Data Scientist in Bengaluru          
-New jobs match your preferences.
-Manage alerts: https://www.linkedin.com/comm/jobs/alerts?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BynjpxszuQ9aljeXgZhR67g%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=3HVQULcIo1wIk1&trk=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15768936788_fmid_omhpso~mr7y4kx3~p0&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15768936788_fmid_omhpso~",Low,Job_Alert
-Indeed <donotreply@jobalert.indeed.com>,"ai developer in Bangalore City, Bengaluru, Karnataka: 19 new jobs","Sun, 05 Jul 2026 14:16:55 +0000","Indeed Job Alert
-19 new ai developer vacancies in Bangalore City, Bengaluru, Karnataka
-
-Jobs 1-19 of 19 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=ai+developer&hl=en&from=ja&l=Bangalore+City%2C+Bengaluru%2C+Karnataka&radius=25&alid=6a3ba37a5e6daf10a812ac16&tmtk=1jspa7aqjg5dq800&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-Ai Engg Intern
-Epifi Technologies - Bengaluru, Karnataka
-From day one, you'll contribute to real product developm",Low,Job_Alert
-Internshala <student@internshala.com>,15+ new internships for Python/Django profile,"Sun, 5 Jul 2026 14:11:23 +0000","Anurag, earn high stipend in your preferred field and location. Apply for
-free on Internshala
-&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb
-sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
- &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n
-bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
- &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n
-bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
- &nbsp;&zwnj",Low,Job_Alert
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,AI Engineer (Agentic Systems) at SureBright: up to ₹3M/year,"Sun, 5 Jul 2026 14:02:37 +0000 (UTC)","Your job alert for Machine Learning Engineer in Delhi            
-AI Engineer (Agentic Systems)
-SureBright
-Gurugram
-View job: https://www.linkedin.com/comm/jobs/view/4435785772/?trackingId=6gjWxuKDGnF0dGPuPaDfPQ%3D%3D&refId=EZYvv9aNyDReA8TTlWvmqw%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B242ejxjHQgamgYg4x4sDtg%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=0xGpHCFqKGwsk1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_text_0_jobid_4435785772_ssid_15801500012_fmid",Low,Job_Alert
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,Python Engineer - GenAI at Finoit Inc,"Sun, 5 Jul 2026 13:28:37 +0000 (UTC)","Your job alert for python developer in India            
-Python Engineer - GenAI
-Finoit Inc
-Noida
-
-This company is actively hiring
-View job: https://www.linkedin.com/comm/jobs/view/4436951411/?trackingId=rPFrwtvhTizWq73hSl9QSw%3D%3D&refId=ooxKoelSkrWoc1Le3SEc7Q%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BUBmqhxICR1usFufcKYDqMw%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=2LFD4Tu3C8wsk1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_text_0_jobid_4436951411_ssid",Low,Job_Alert
-Naukri MINIs <info@minis.naukri.com>,Your resignation can quietly ruin your next offer,"Sun, 5 Jul 2026 18:38:46 +0530 (IST)","Hey Anurag, Before your next company sends the final confirmation, HR usually checks something most candidates overlook. And it has nothing to do with interviews. Naukri MINIs explains why clean exits",Low,Newsletter
-Internshala <student@mail.internshala.com>,Update: Carnival is closing tomorrow,"Sun, 05 Jul 2026 12:48:13 +0000 (UTC)",Apply now ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏ ﻿ ͏,Low,Job_Alert
-BetaList <team@betalist.com>,"Legion AI, CryptoRanks Wiki, Maintouch, DropSwap, Softlaunch, and more","Sun, 05 Jul 2026 12:20:54 +0000","Swap items cash-free with verified locals across the UK
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ",Low,Newsletter
-AJIO <alert@mailer.ajio.in>,🚀 Going Viral Right Now,"Sun, 05 Jul 2026 17:35:15 +0530"," Discover what's Hot Right Now with styles everyone's obsessed with.
-            
-      
-           
-    
-     
-     
-     
-     
-     
-          
-    
-           
-     
-  
-            
-     
-  
-            
-     
-  
-            
-   
-                
-  
-  The best of the best, lined up for you! Get your style game right with AJIO
-
-
-  
-    To unsubscribe from these mailings, you may opt out here.
-  
-
-
-
-
-
-
-
-
-
-",Low,Promotional
-Chandrakumar R Pillai via LinkedIn <newsletters-noreply@linkedin.com>,From GPUs to Grid Stress: The Real Infrastructure Challenge Behind AI,"Sun, 5 Jul 2026 12:00:34 +0000 (UTC)","AI Daily Nutshell
-
-By Chandrakumar R Pillai
-
-
-By Chandrakumar R Pillai
-
-    
-    
-    Read this article on LinkedIn to join the conversation
-Read on LinkedIn
-https://www.linkedin.com/comm/pulse/from-gpus-grid-stress-real-infrastructure-challenge-behind-r-pillai-sbq1e?lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_02%3BnScLl9PvQK%2BjwY8lrBvRCQ%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=2pPTN8IwwMwsk1&trk=eml-email_series_follow_newsletter_02-null-0-read_more_banner_cta_&trkEmail",Low,Newsletter
-Himanshiii Rai <invitations@linkedin.com>,You have an invitation ✉️,"Sun, 5 Jul 2026 11:28:37 +0000 (UTC)","Himanshiii is waiting for your response
-        
-Hi Anurag, I’d like to join your professional network
-
-Himanshiii Rai
-Freelancing | Graphic Designer | Creating Aesthetic Branding & Social Media Designs
-India
-22 connections in common
-See all connections in common:https://www.linkedin.com/comm/search/results/people/?facetNetwork=%5B%22F%22%5D&facetConnectionOf=%5B%22ADoAAF1GdLUBUNw-NeugnlVQdY5QDO5l3yFCjak%22%5D&origin=SHARED_CONNECTIONS_CANNED_SEARCH&lipi=urn%3Ali%3Apage%3Aemail_email_m2m",Low,Networking
-Glassdoor <noreply@glassdoor.com>,AryaXAI: Apply Now,"Sun, 05 Jul 2026 11:18:20 +0000 (UTC)","See all of your recently viewed jobs, saved jobs, and more ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​",Low,Job_Alert
-Indeed <donotreply@jobalert.indeed.com>,development intern in Remote: 21 new jobs,"Sun, 05 Jul 2026 11:06:01 +0000","Indeed Job Alert
-21 new development intern jobs (Remote)
-
-Jobs 1-21 of 21 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=development+intern&hl=en&from=ja&l=Remote&radius=25&alid=6a3ba13f6958b5424819a117&tmtk=1jsov9p7fpgv9800&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-AI Engineer Intern
-Spearmint technologies - Remote
-₹5,000 - ₹8,000 a month
-Easily apply
-Continuously research and experiment with *new AI tools, frameworks, and automation",Low,Job_Alert
-Indeed <donotreply@jobalert.indeed.com>,"ai/ml engineer in Nirman Nagar, Jaipur, Rajasthan: 2 new jobs","Sun, 05 Jul 2026 10:41:06 +0000","Indeed Job Alert
-2 new ai/ml engineer vacancies in Nirman Nagar, Jaipur, Rajasthan
-
-Jobs 1-2 of 2 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=ai%2Fml+engineer&hl=en&from=ja&l=Nirman+Nagar%2C+Jaipur%2C+Rajasthan&radius=25&alid=6a3ba3c45e6daf10a812aca4&tmtk=1jsots55cg9gs800&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-Senior Engineer - Data & AI (Generative AI)
-Mtoag - Jaipur, Rajasthan
-Design, build, and operate data pipelines and feat",Low,Job_Alert
-Indeed <donotreply@jobalert.indeed.com>,engineering intern in Remote: 10 new jobs,"Sun, 05 Jul 2026 10:07:48 +0000","Indeed Job Alert
-10 new engineering intern jobs (Remote)
-
-Jobs 1-10 of 10 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=engineering+intern&hl=en&from=ja&l=Remote&radius=25&alid=6a3ba1e63dd3d95ce64d09fa&tmtk=1jsorv58cgbfl800&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-AI Inference & Optimization Intern (Founding Team)
-Siellium Global Labs Private Limited - Remote
-₹2,000 - ₹4,000 a month
-Easily apply
-AI Inference & Engine Optimization In",Low,Job_Alert
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,AI Implementation & Training Specialist — Full-Time Remote Contract with U.S. Companies at Kevin M. Downey,"Sun, 5 Jul 2026 09:28:37 +0000 (UTC)","Your job alert for information technology specialist in Kanpur            
-AI Implementation & Training Specialist — Full-Time Remote Contract with U.S. Companies
-Kevin M. Downey
-APAC
-
-This company is actively hiring
-Apply with resume & profile
-View job: https://www.linkedin.com/comm/jobs/view/4436771184/?trackingId=EIsv8GykRVwTflQ3oTNKdQ%3D%3D&refId=cfnt5MaKLACCZ2zqakZ%2BlA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BMVR5vIqoT9Ck2mPm%2FlQNyA%3D%3D&midToken=AQE_aw4ByEc5",Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,"Software Developer Intern at Scrollfuel and 8 more jobs in Nāgpur, Maharashtra for you. Apply Now.","Sun, 05 Jul 2026 09:24:06 +0000 (UTC)",FinVise AI Tech Pvt Ltd is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿,Low,Job_Alert
-Team Snapchat <informational@email.snapchat.com>,"Anurag, Remember This?","Sun, 5 Jul 2026 07:59:10 +0000","On June 29, 2024... ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",Low,Promotional
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,AI Engineer (Agentic Systems) at SureBright: up to ₹3M/year,"Sun, 5 Jul 2026 07:29:03 +0000 (UTC)","Your job alert for software engineer in India            
-AI Engineer (Agentic Systems)
-SureBright
-Gurugram
-View job: https://www.linkedin.com/comm/jobs/view/4435785772/?trackingId=sT8ur5oS4esmNO5K%2FHoBXw%3D%3D&refId=Y03AvrhnouBjKCTrEU4%2BZQ%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bg1GiaVFCTa6WtMWhCK%2FT%2BA%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=3IW7K9hCgxwck1&trk=eml-email_job_alert_digest_01-primary_job_list-0-jobcard_body_text_0_jobid_4435785772_ssid_15760578692_fmid",Medium,Job_Alert
-Gen AI Academy APAC Edition <admin@no-reply.hack2skill.com>,24 Hours Remaining | Submit Your Hackathon Project,"Sun, 5 Jul 2026 05:51:04 +0000","Hello Anurag Tiwari, This is your final 24-hour reminder. The submission window for the Google Cloud Gen AI Academy Cohort 2 Hackathon closes tomorrow. A few final checks today could make all the",High,Other
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,Agentic AI Engineer at BayOne Solutions,"Sun, 5 Jul 2026 05:28:37 +0000 (UTC)","Your job alert for artificial intelligence engineer in Kanpur            
-Agentic AI Engineer
-BayOne Solutions
-India
-
-This company is actively hiring
-Apply with resume & profile
-View job: https://www.linkedin.com/comm/jobs/view/4435712661/?trackingId=UH4VxMilzIiES87sa0L4nA%3D%3D&refId=55ZQrzv6yrxBPp2sH0VqAA%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B7HscZUL2TOS1VUlsvtpK7g%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=2QXQ-XURCEvYk1&trk=eml-email_job_alert_digest_01-primary_job_",Low,Job_Alert
-AmbitionBox <no-reply@ambitionbox.com>,"Reviews, Salaries & Interview Questions of Companies you Applied to","Sun, 5 Jul 2026 09:28:27 +0530 (IST)","Hi Anurag Tiwari, Read reviews, salaries, and interview questions of companies you applied to on Naukri to get a better feel for what to expect. AmbitionBox Download app Hi Anurag Tiwari, Read reviews,",Low,Newsletter
-"""Freelancer.com"" <noreply@notifications.freelancer.com>","Anurag, these PHP, Python, and Software Architecture projects might interest you","Sun, 05 Jul 2026 01:03:47 -0400","
-
-(https://www.freelancer.com/)
-
-Hi Anurag,
-
-Here are the latest projects matching your skills. Updating your profile and skills can make these recommendations even more relevant for you.
-
-========
-Projects
-========
-
-Odoo 17 PayNow QR Integration
-Budget: ₹2212 - ₹18433 INR
-Skills: API Integration, ERP, Odoo, Payment Gateway Integration, PHP, Python, Software Architecture, Stripe
-Description:
-My self-service kiosk already runs on Odoo 17 and takes card payments through Stripe Term",Low,Job_Alert
-Glassdoor <noreply@glassdoor.com>,AryaXAI: What You Need to Know,"Sun, 05 Jul 2026 04:01:21 +0000 (UTC)","See Salaries, Interviews, and Benefits at AryaXAI Glassdoor Get prepared. Learn more about the companies you applied to. AI Agent Engineer Intern at AryaXAI India See all Benefits AryaXAI Salaries AI",Low,Job_Alert
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,“llm jobs”: Delphie Consulting services - Artificial Intelligence Engineer posted on 7/4/26,"Sun, 5 Jul 2026 03:28:57 +0000 (UTC)","Your job alert for llm jobs in Bengaluru          
-30+ new jobs match your preferences.
-
-Results from the new AI-powered job search
-
-            
-Artificial Intelligence Engineer
-Delphie Consulting services
-Bengaluru
-Apply with resume & profile
-View job: https://www.linkedin.com/comm/jobs/view/4435783560/?trackingId=Yx9Y3AfkpEymb5H2Cxhctw%3D%3D&refId=i8DD%2FcB5N8AbKxWnfFJCmg%3D%3D&lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BM6d474jMRJeTzb8PPqtErQ%3D%3D&midToken=AQE_aw4ByEc",Low,Job_Alert
-Naukri <info@naukri.com>,You applied for 1 job on 04 Jul,"Sun, 5 Jul 2026 06:00:21 +0530 (IST)",". naukri.com Get app Your application was sent, Good luck! Applied on July 04, 2026 Python AI Engineer - Autonomus Agents Fluid AI Track application Similar jobs for you Python AI Engineer - Autonomous",Low,Application_Status
-remot <alerts@workremot.com>,Remote Job Alert: FT HR Administrative Assistant (Work From Home) at Superpedestrian,"Sun, 5 Jul 2026 00:22:27 +0000","<td style=""
- font-family:Arial, Helvetica, sans-serif;
- font-size:15px;
- line-height:24px;
- color:#111111;
- word-break:break-word;
-"">
-
-===============================
-
-REMOTE JOB ALERT
-
-===============================
-
-July 4, 2026
-
-FT HR Administrative Assistant (Work From Home)
-
-Remote
-
-Company:
-
-Superpedestrian
-
-Summary:
-
-[Office Assistant / Remote] - Anywhere in U.S. / Competitive pay / Benefits (Medical-Dental-Vision-Disability-401k) / Generous time off - As an HR ",Low,Job_Alert
-Indeed <donotreply@jobalert.indeed.com>,ai developer in Remote: 22 new jobs,"Sat, 04 Jul 2026 23:40:46 +0000","Indeed Job Alert
-22 new ai developer jobs (Remote)
-
-Jobs 1-22 of 22 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=ai+developer&hl=en&from=ja&l=Remote&radius=25&alid=6a11f03b49a4e71b97205988&tmtk=1jsno2qhp20a5001&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-Software Developer Intern
-Sagemind Analytics Private Limited - Remote
-₹10,000 a month
-Easily apply
-Type:* Full-time Internship (6 months, convertible to full-time). This is a ground-f",Low,Job_Alert
-remot <alerts@workremot.com>,Accounts Payable Specilaist - Full Time - Work From Home at Decision Information Resources Inc,"Sat, 4 Jul 2026 23:21:18 +0000","New Job Openings
-
-New job openings curated for you — apply today.
-
-New remote jobs
-
-Still searching for the right remote role? Earn while you search!
-
-Earn extra money by testing apps, completing surveys, and playing games — many offers pay $10–$225.
-
-<a href=""https://www.workremot.com/fc.asp?utm_source=job_alerts"" target=""_blank"" 
- style=""display:inline-block; background-color:#2c7a7b; color:#ffffff; text-decoration:none; font-weight:bold; font-size:14px; padding:10px 16px; border-ra",Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,Software Developer - AI Trainer role at DataAnnotation: you would be a great fit!,"Sat, 04 Jul 2026 23:20:45 +0000 (UTC)",Apply Now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌,Low,Job_Alert
-Tomas from Kickresume <tomas@kickresume.com>,Sample emails for sending your resume to recruiters,"Sat, 04 Jul 2026 22:45:32 +0000","What to write in an email when sending a resume to an employer? 
- [Image] 
- Have you found a job posting that asks you to submit your resume via email? If so, you’re probably asking yourself right now — what to write in an email when sending my resume so I will stand out? 
- Use one of our email templates as your first draft! 
- Email Templates &gt; 
- 
-
- 
-
- 
- VIDEO: How to email a resume like a pro? 
- [Image] 
- 
-
- 
-
- 
- Watch our 5 minute guide which includes every piece of tangibl",Low,Newsletter
-Glassdoor Jobs <noreply@glassdoor.com>,AI Or ML Engineer at UnitedHealth Group and 11 more jobs in India for you. Apply Now.,"Sat, 04 Jul 2026 22:04:06 +0000 (UTC)",UnitedHealth Group is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎,Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,"Software Developer Intern at Sagemind Analytics Private Limited and 9 more jobs in Remote, India for you. Apply Now.","Sat, 04 Jul 2026 21:49:18 +0000 (UTC)",Indeed is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​,Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,"Milestone Technologies, Voye Homes is hiring in Cochin. Apply Now.","Sat, 04 Jul 2026 21:33:36 +0000 (UTC)",Jachoos Technologies is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​,Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,AI/MI Enginner -5+ Yrs-Pune -Onsite at IQLEXA Technologies Pvt. Ltd and 10 more jobs in Pune for you. Apply Now.,"Sat, 04 Jul 2026 21:30:23 +0000 (UTC)",hyre global service pvt.ltd. is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌,Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,Junior AI Developer at CivicDataLab and 11 more jobs in Noida for you. Apply Now.,"Sat, 04 Jul 2026 21:23:11 +0000 (UTC)",Pratap Technocrats is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎,Low,Job_Alert
-Alex at remot <alerts@workremot.com>,VaVa Virtual Assistants is hiring now...,"Sat, 4 Jul 2026 21:21:15 +0000","Hey,
-
-Here's a NEW remote job. I wanted to get it in front of you ASAP to help you get a jumpstart on the competition. If you like what you see, go ahead and view the details!
-
-New Remote Job
-
-PT Virtual Executive Assistant - Work From Home
-
-VaVa Virtual Assistants • Remote
-
-[Administrative Assistant / Remote] - Anywhere in U.S. / $15/hr to start - As a Virtual Executive Assistant you'll: Administrate and implement assigned tasks from clients in your virtual environment; 
-
-<a href=""h",Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,"Lovable AI Developer at Parrot AI Private Limited and 10 more jobs in Remote, India for you. Apply Now.","Sat, 04 Jul 2026 21:06:03 +0000 (UTC)",Weekday is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌,Low,job_alert
-support@xcelviewpoint.com,New Surveys Available for You,"Sat, 4 Jul 2026 21:00:21 +0000","Hi Anurag Tiwari,
-
-We've got some new surveys just for you!
-Share your thoughts and earn rewards:
-
-1. MXCL047680403
-   Estimated Time: 5min
-   Reward: ₹76.5
-   Take Survey: https://xcelviewpoint.com/dashboard
-
-2. MXCL046854802
-   Estimated Time: 6min
-   Reward: ₹35.7
-   Take Survey: https://xcelviewpoint.com/dashboard
-
-3. MXCL047680402
-   Estimated Time: 5min
-   Reward: ₹76.5
-   Take Survey: https://xcelviewpoint.com/dashboard
-
-4. MXCL047680401
-   Estimated Time: 5min
-   Re",Low,promotional
-Jobright Job Alert <noreply@jobright.ai>,Your Top Job matches for “Machine Learning Engineer Intern” — 98% match from Jobright - 07/04/2026,"Sat, 4 Jul 2026 20:09:12 +0000","Explore this today&#39;s top matches, curated to align with your preferences, experiences, and skill sets. Neuralink Artificial Intelligence (AI) · Late Stage 98% Machine Learning Engineer Intern $35/",Low,Job_Alert
-Michael Page India <noreply@mail.michaelpage.co.in>,New jobs for:  Information Technology : Bangalore Urban,"Sat, 04 Jul 2026 12:46:43 -0600","
-
-
-
-Page Group
- 
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
- 
-https://click.em.page.com/?qs=ABB7InYiOjEsImQiOjQ5Mjd9ADIAAAAAAQKTFAlJF0HUNQskmT-p7OeANrLvecCCI8LwMOpam_jJ3fTNnLU-WhTCTQhMRA3Z5rd7ZZxHTEBxzSSfMAFkkpHTncGOwGKtd5UX2QoX2G0f7qI- 
-
-
-
-
-
-
-
-
-
-
-
-
-Latest  Information Technology jobs   in Bangalore Urban
-
- 
- Keywords: Information Technology 
-
- 
- 
- 
- 
- Location: Bangalore Urban 
-
- 
- 
-  
- 
- 
- 
- 
- 
- 
-
-
- 
- 
-
-
- 
-
-https://click.em.page.com/?qs=ABB7InYiOjEsImQiOjQ5",Low,Job_Alert
-remot <alerts@workremot.com>,Remote Job Alert: Sales Administrator - FT - Work From Home at Savance Workplace,"Sat, 4 Jul 2026 18:19:08 +0000","<td style=""
- font-family:Arial, Helvetica, sans-serif;
- font-size:15px;
- line-height:24px;
- color:#111111;
- word-break:break-word;
-"">
-
-===============================
-
-REMOTE JOB ALERT
-
-===============================
-
-July 4, 2026
-
-Sales Administrator - FT - Work From Home
-
-Remote
-
-Company:
-
-Savance Workplace
-
-Summary:
-
-[Administrative Assistant / Remote] - Anywhere in U.S. / Up to $60,000-yr / Flexible schedule / Health-Dental-Vision / 401(k) matching / Paid time off ",Low,Job_Alert
-Internshala <student@updates.internshala.com>,Update: your participation status update is pending,"Sat, 04 Jul 2026 15:11:30 +0000 (UTC)","Hi Anurag, Every internship offer, every resume update, and every career milestone has a story behind it. If Internshala has been a part of your journey whether it helped you land your first internship",Medium,Application_Status
-Jobright Job Alert <noreply@jobright.ai>,CodeVertex Innovations LLC just posted a 84% match Machine Learning Engineer role 1 hour ago,"Sat, 4 Jul 2026 15:02:59 +0000",$105K/yr - $165K/yr / Remote Jobright Instant Alert Always be the first to apply Jobright.ai Job Icon CodeVertex Innovations LLC Computer Software · Early Stage 84% Machine Learning Engineer $105K/yr -,Low,Job_Alert
-Internshala <student@internshala.com>,NayePankh Foundation is promoting Machine Learning internship!,"Sat, 4 Jul 2026 14:15:23 +0000","Anurag, earn high stipend in your preferred field and location. Apply for
-free on Internshala
-&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb
-sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
- &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n
-bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
- &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n
-bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
- &nbsp;&zwnj",Low,Job_Alert
-Indeed <donotreply@jobalert.indeed.com>,"ai developer in Bangalore City, Bengaluru, Karnataka: 21 new jobs","Sat, 04 Jul 2026 12:51:57 +0000","Indeed Job Alert
-21 new ai developer vacancies in Bangalore City, Bengaluru, Karnataka
-
-Jobs 1-21 of 21 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=ai+developer&hl=en&from=ja&l=Bangalore+City%2C+Bengaluru%2C+Karnataka&radius=25&alid=6a3ba37a5e6daf10a812ac16&tmtk=1jsmiv0u7g5dq800&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-Ai Engg Intern
-Epifi Technologies - Bengaluru, Karnataka
-We may use artificial intelligence (AI) tools to support",Low,Job_Alert
-BetaList <team@betalist.com>,"Lotto Predictions, Smart Post Studio, VoiceMe, Siamang Cloud, TinyTemp, and more","Sat, 04 Jul 2026 12:20:54 +0000","Prepare for interviews, build ATS-ready resumes, and apply
-smarter
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏
- ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ﻿͏  ",Low,Newsletter
-Chandrakumar R Pillai via LinkedIn <newsletters-noreply@linkedin.com>,The AI Infrastructure Race Is Becoming an Energy Race,"Sat, 4 Jul 2026 12:04:20 +0000 (UTC)","AI Daily Nutshell
-
-By Chandrakumar R Pillai
-
-
-By Chandrakumar R Pillai
-
-    
-    
-    Read this article on LinkedIn to join the conversation
-Read on LinkedIn
-https://www.linkedin.com/comm/pulse/ai-infrastructure-race-becoming-energy-chandrakumar-r-pillai-6jzxe?lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_02%3B1kmTyK07QEOjJfSYvaZcvg%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=1SxZk9GcekuYk1&trk=eml-email_series_follow_newsletter_02-null-0-read_more_banner_cta_&trkEmail=eml-emai",Low,Newsletter
-Indeed <donotreply@jobalert.indeed.com>,engineering intern in Remote: 11 new jobs,"Sat, 04 Jul 2026 11:54:40 +0000","Indeed Job Alert
-11 new engineering intern jobs (Remote)
-
-Jobs 1-11 of 11 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=engineering+intern&hl=en&from=ja&l=Remote&radius=25&alid=6a3ba1e63dd3d95ce64d09fa&tmtk=1jsmfm507gbfl800&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-AI Inference & Optimization Intern (Founding Team)
-Siellium Global Labs Private Limited - Remote
-₹2,000 - ₹4,000 a month
-Easily apply
-This position provides deep exposure ",Low,job_alert
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,GenAI / Agentic AI Engineer at Infosys,"Sat, 4 Jul 2026 11:28:38 +0000 (UTC)","Your job alert for python developer in India          
-New jobs match your preferences.
-Manage alerts: https://www.linkedin.com/comm/jobs/alerts?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BC4SjWx4xRIiQdiOyN0Vxjg%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=06s3ZjgihMuYk1&trk=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15760578700_fmid_omhpso~mr6a435o~zy&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15760578700_fmid_omhpso~mr",Low,Job_Alert
-Indeed <donotreply@jobalert.indeed.com>,development intern in Remote: 20 new jobs,"Sat, 04 Jul 2026 11:17:11 +0000","Indeed Job Alert
-20 new development intern jobs (Remote)
-
-Jobs 1-20 of 20 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=development+intern&hl=en&from=ja&l=Remote&radius=25&alid=6a3ba13f6958b5424819a117&tmtk=1jsmdhh1cgen6800&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-Software Developer Intern
-Sagemind Analytics Private Limited - Remote
-₹10,000 a month
-Easily apply
-Type:* Full-time Internship (6 months, convertible to full-time). This i",Low,Job_Alert
-Naukri MINIs <info@minis.naukri.com>,Why recruiters aren't finding your profile,"Sat, 4 Jul 2026 16:20:56 +0530 (IST)","Hey Anurag, You can have the right degree. The right projects. Even the right skills. But if your profile isn&#39;t discoverable, recruiters may never find it. Naukri MINIs explains the hidden profile",Low,Job_Alert
-Indeed <donotreply@jobalert.indeed.com>,"ai/ml engineer in Nirman Nagar, Jaipur, Rajasthan: 2 new jobs","Sat, 04 Jul 2026 10:07:56 +0000","Indeed Job Alert
-2 new ai/ml engineer vacancies in Nirman Nagar, Jaipur, Rajasthan
-
-Jobs 1-2 of 2 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=ai%2Fml+engineer&hl=en&from=ja&l=Nirman+Nagar%2C+Jaipur%2C+Rajasthan&radius=25&alid=6a3ba3c45e6daf10a812aca4&tmtk=1jsm9inbeg9gs800&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-Senior Engineer - Data & AI (Generative AI)
-Mtoag - Jaipur, Rajasthan
-Build data and AI systems end-to-end — from pipeli",Low,Job_Alert
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,AI / ML Engineer at Accenture services Pvt Ltd,"Sat, 4 Jul 2026 09:28:37 +0000 (UTC)","Your job alert for Machine Learning Engineer in Delhi          
-New jobs match your preferences.
-Manage alerts: https://www.linkedin.com/comm/jobs/alerts?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BFdVfzRlYS6uqEg96lFJOuA%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=2NrZsPSKbUuIk1&trk=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15801500012_fmid_omhpso~mr65trah~xj&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15801500012_fmid_",Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,"PHP Laravel Developer at Hesten Solutions and 6 more jobs in Nāgpur, Maharashtra for you. Apply Now.","Sat, 04 Jul 2026 09:25:08 +0000 (UTC)",FinVise AI Tech Pvt Ltd is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿,Low,Job_Alert
-Team Snapchat <informational@email.snapchat.com>,"Anurag, Remember This?","Sat, 4 Jul 2026 07:50:54 +0000","On June 29, 2024... ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",Low,Promotional
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,“llm jobs”: Infosys - GenAI / Agentic AI Engineer posted on 7/3/26,"Sat, 4 Jul 2026 07:29:51 +0000 (UTC)","Your job alert for llm jobs in Bengaluru          
-30+ new jobs match your preferences.
-Manage alerts: https://www.linkedin.com/comm/jobs/alerts?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3B1REufSNbSoqwBpJ%2B8ODJjg%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=12B2xHB5G1uIk1&trk=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15768936604_fmid_omhpso~mr61jfj2~n5&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15768936604_fmid_omhpso~",Low,Job_Alert
-Naukri <info@naukri.com>,Show your Python expertise to recruiters!,"Sat, 4 Jul 2026 11:11:52 +0530 (IST)",Stand out amongst other Python candidates. Get my badge now. The skill badge is not the only reason why you should take this 15 min test. Verified skills showcase your proficiency. The shining badge on,Low,Promotional
-TCS iON <noreply@updates.tcsion.com>,Your dream career starts here,"Sat, 04 Jul 2026 05:32:49 +0000 (UTC)","Dear Candidate, Did you know over 96000 candidates are on their dream jobs thanks to TCS iON NQT? TCS, Publicis Sapient, Xenon Stack, Tredence, TVS Motor, Mphasis, UST Global are few among 4300+",Low,Promotional
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,Software Engineering Intern at Career Launch Tech Initiative,"Sat, 4 Jul 2026 05:28:49 +0000 (UTC)","Your job alert for Engineer Intern in Los Angeles          
-A new job matches your preferences.
-Manage alerts: https://www.linkedin.com/comm/jobs/alerts?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BgVmf5hy3S4udxh3%2B1gSSdA%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=1R09IsfuU8uIk1&trk=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15796684068_fmid_omhpso~mr5x94de~j&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15796684068_fmid_",Low,Job_Alert
-"""Freelancer.com"" <noreply@notifications.freelancer.com>","Anurag, these PHP, Python, and Web Development projects might interest you","Sat, 04 Jul 2026 01:08:46 -0400","
-
-(https://www.freelancer.com/)
-
-Hi Anurag,
-
-Here are the latest projects matching your skills. Updating your profile and skills can make these recommendations even more relevant for you.
-
-========
-Projects
-========
-
-Innovative Website Redesign for Relationship Therapist
-Budget: ₹16813 - ₹50438 INR
-Skills: Graphic Design, HTML, PHP, SEO, Web Design, Web Development, Webflow, Website Design, Website Optimization, WordPress
-Description:
-Job Description I'm looking for an experience",Low,Job_Alert
-Gen AI Academy APAC Edition <admin@no-reply.hack2skill.com>,48 Hours Left to Submit Your Prototype,"Sat, 4 Jul 2026 03:50:11 +0000","Hello Anurag Tiwari, The countdown has begun. Only 48 hours remain before hackathon submissions close for the Google Cloud Gen AI Academy Cohort 2 Hackathon. If you&#39;re still refining your solution,",High,Other
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,Data Scientist (ML/AI) at Philips,"Sat, 4 Jul 2026 03:28:58 +0000 (UTC)","Your job alert for Data Scientist in Bengaluru          
-New jobs match your preferences.
-Manage alerts: https://www.linkedin.com/comm/jobs/alerts?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BdcAEJ2JITf6pf%2BpIo%2F9u2A%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=1H1JqJnsWgusk1&trk=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15768936788_fmid_omhpso~mr5syspx~wk&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15768936788_fmid_omh",Low,Job_Alert
-Sachin Tivari via LinkedIn <messaging-digest-noreply@linkedin.com>,Sachin just messaged you,"Sat, 4 Jul 2026 01:13:50 +0000 (UTC)","You have 1 new message
-
-.....................................
-
-Sachin Tivari (Student at Chhatrapati shahuji Maharaj Kanpur)
-(https://in.linkedin.com/in/sachin-tivari-47a11941a)
-
-View message: https://www.linkedin.com/comm/messaging/thread/2-NjM0NDQ1OTMtYzU3My00MTdlLTk2YmYtNjhkYjA2ZDNjOTExXzEwMA==?lipi=urn%3Ali%3Apage%3Aemail_email_member_message_v2%3BRyb2ikZkTMmPejYAYyxfVA%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=0LeHo7No09usk1&trk=eml-email_member_message_v2-one_to_one_single_thread_text-0-",Low,Networking
-Alex at remot <alerts@workremot.com>,TicketNetwork has an open remote position...,"Sat, 4 Jul 2026 00:17:11 +0000","Hey,
-
-Here's a NEW remote job. I wanted to get it in front of you ASAP to help you get a jumpstart on the competition. If you like what you see, go ahead and view the details!
-
-New Remote Job
-
-Contact Center Associate - FT - Work From Home
-
-TicketNetwork • Remote
-
-[Customer Service Rep / Remote] - Anywhere in U.S. / Up to $56,000-yr + Monthly Bonus Incentives / Multiple Shifts Available / Comprehensive Health-Dental-Vision-Life / Company Match on 401(k) / Gener
-
-<a href=""https://www.",Low,Job_Alert
-remot <alerts@workremot.com>,Home Health Occupational Therapist (OT) at Aveanna Healthcare,"Sat, 4 Jul 2026 00:06:26 +0000","New Job Openings
-
-New job openings curated for you — apply today.
-
-New remote jobs
-
-Still searching for the right remote role? Earn while you search!
-
-Earn extra money by testing apps, completing surveys, and playing games — many offers pay $10–$225.
-
-<a href=""https://www.workremot.com/fc.asp?utm_source=job_alerts"" target=""_blank"" 
- style=""display:inline-block; background-color:#2c7a7b; color:#ffffff; text-decoration:none; font-weight:bold; font-size:14px; padding:10px 16px; border-ra",Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,Platform Engineer - AI Trainer role at DataAnnotation: you would be a great fit!,"Fri, 03 Jul 2026 23:24:36 +0000 (UTC)",Apply Now! ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌,Low,Job_Alert
-Indeed <donotreply@jobalert.indeed.com>,ai developer in Remote: 22 new jobs,"Fri, 03 Jul 2026 23:22:01 +0000","Indeed Job Alert
-22 new ai developer jobs (Remote)
-
-Jobs 1-22 of 22 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=ai+developer&hl=en&from=ja&l=Remote&radius=25&alid=6a11f03b49a4e71b97205988&tmtk=1jsl4juff20a5001&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-Software Developer Intern
-Sagemind Analytics Private Limited - Remote
-₹10,000 a month
-Easily apply
-Type:* Full-time Internship (6 months, convertible to full-time). This is a ground-f",Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,"Software Developer Intern at Sagemind Analytics Private Limited and 10 more jobs in Remote, India for you. Apply Now.","Fri, 03 Jul 2026 23:15:39 +0000 (UTC)",Indeed is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​,Low,Job_Alert
-Glassdoor <noreply@glassdoor.com>,AryaXAI: What You Need to Know,"Fri, 03 Jul 2026 23:01:02 +0000 (UTC)","See Salaries, Interviews, and Benefits at AryaXAI Glassdoor Get prepared. Learn more about the companies you applied to. AI Agent Engineer Intern at AryaXAI India See all Benefits AryaXAI Salaries AI",Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,Vedio Editor & AI Animator at JSRY Properties and 10 more jobs in India for you. Apply Now.,"Fri, 03 Jul 2026 21:34:32 +0000 (UTC)",Alfora Tech Pvt Ltd is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍,Low,Job_Alert
-Jobright Job Alert <noreply@jobright.ai>,Latest “Machine Learning Engineer Intern” jobs you might like — 98% match from Jobright - 07/03/2026,"Fri, 3 Jul 2026 21:17:15 +0000","Explore this today&#39;s top matches, curated to align with your preferences, experiences, and skill sets. Neuralink Artificial Intelligence (AI) · Late Stage 98% Machine Learning Engineer Intern $35/",Low,Job_Alert
-remot <alerts@workremot.com>,Remote Job Alert: Administrative Coordinator - FT - Work From Home at Guardian HR Inc,"Fri, 3 Jul 2026 21:16:13 +0000","<td style=""
- font-family:Arial, Helvetica, sans-serif;
- font-size:15px;
- line-height:24px;
- color:#111111;
- word-break:break-word;
-"">
-
-===============================
-
-REMOTE JOB ALERT
-
-===============================
-
-July 3, 2026
-
-Administrative Coordinator - FT - Work From Home
-
-Remote
-
-Company:
-
-Guardian HR Inc
-
-Summary:
-
-[Office Clerical / Remote] - Anywhere in U.S. / Up to $26-hr / 8:00 a.m. to 5:00 p.m. PST Monday thru Friday / Health-Dental-Vision / Paid Vacatio",Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,"Software Developer Intern at Sagemind Analytics Private Limited and 9 more jobs in Remote, India for you. Apply Now.","Fri, 03 Jul 2026 20:49:29 +0000 (UTC)",Weekday is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌,Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,AI Engineer Intern at Shyena Tech Yarns and 8 more jobs in Pune for you. Apply Now.,"Fri, 03 Jul 2026 20:49:24 +0000 (UTC)",CrutzLeela Enterprises is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿,Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,New jobs in Cochin. Apply Now.,"Fri, 03 Jul 2026 20:47:16 +0000 (UTC)",Jachoos Technologies is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​,Low,Job_Alert
-Michael Page India <noreply@mail.michaelpage.co.in>,New jobs for:  Information Technology : Bangalore Urban,"Fri, 03 Jul 2026 14:39:08 -0600","
-
-
-
-Page Group
- 
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
- 
-https://click.em.page.com/?qs=ABB7InYiOjEsImQiOjQ5MjZ9ADIAAAAAAQAZbB2-8rDC8GmxRuJ1pywCrE6dDv_YqN3a6_0U0NT2yYKcPYrBbyA9fm15iH9C4lgcHvX7r6qBfbRRHjAM-vHXheTf3RSCps8izdnvZIzGbtyu 
-
-
-
-
-
-
-
-
-
-
-
-
-Latest  Information Technology jobs   in Bangalore Urban
-
- 
- Keywords: Information Technology 
-
- 
- 
- 
- 
- Location: Bangalore Urban 
-
- 
- 
-  
- 
- 
- 
- 
- 
- 
-
-
- 
- 
-
-
- 
-
-https://click.em.page.com/?qs=ABB7InYiOjEsImQiOjQ5",Low,Job_Alert
-Grammarly <hello@mail.grammarly.com>,Take 50% off Pro. Take back your day.,"Fri, 03 Jul 2026 20:16:48 +0000","Grammarly Pro speeds up writing so you can move on.  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
-‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
-‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
-‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
-
-
-
- <http://grammarly.com/>  <http://grammarly.com/> Redeem your offer → 
-<https://discount.grammarly.com/api/discounts/live?hash=0d865987f53bf43f116822d60277c03c6410a1b5&discount=eyd",Low,Promotional
-Glassdoor Jobs <noreply@glassdoor.com>,AI Engineer at Sinro Robotics and 9 more jobs in India for you. Apply Now.,"Fri, 03 Jul 2026 19:46:30 +0000 (UTC)",StockWiz Technologies is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌,Low,Job_Alert
-Glassdoor Jobs <noreply@glassdoor.com>,AI/ML Researcher at NK Securities Research and 11 more jobs in Noida for you. Apply Now.,"Fri, 03 Jul 2026 19:44:42 +0000 (UTC)",EXL Service is hiring ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎‏﻿ ‌​‍‎,Low,Job_Alert
-slice <noreply@slice.bank.in>,Your June 2026 slice bank statement is here,"Fri, 3 Jul 2026 19:28:36 +0000","slice Hi Anurag, Your savings bank account statement for June 2026 is here. A simple snapshot of how your money moved, and how it grew. Your file is password protected. Use your date of birth in",Low,Other
-Google Developer Program <googledev-noreply@google.com>,The Monthly Build - Google Developer Program - July 2026,"Fri, 03 Jul 2026 11:56:04 -0700","Google Developer  
-Program<https://c.gle/AOPyDKRP-GWnBepP2E8wC3sDnVJwTtN3y-OHUv99Mt8gabHQrx6y4oeOWHVQao0h-76L9ijX96JiVypWYGSmil6aGB1sAUN1-lsnatPQhLWFiivjlbnBAJv6SYnYhAJ4F8OzIw7n1y0wqx6kBRpfP-9Q1POC3OSJayJ1cg>
-
-Written by Richard  
-Seroter<https://c.gle/AOPyDKRFcbE_bPKskKoeQYlpk7E1dg6EXk0fwjp-uuaP905FpMkWAR1G9c9HXXc2lly6kogWJZTSPznDajeBVQVMXbxoIXTn8-BJMcFdjltwnhjX0s3wRE6KshRnDyaVNtkd9Wk>
-
-BUILDER SPOTLIGHT:
-
-Build on Android 17.
-
-We just released Android 17, and the source code is avail",Low,Newsletter
-Alex at remot <alerts@workremot.com>,Savance Workplace just posted a remote job...,"Fri, 3 Jul 2026 18:14:25 +0000","Hey,
-
-Here's a NEW remote job. I wanted to get it in front of you ASAP to help you get a jumpstart on the competition. If you like what you see, go ahead and view the details!
-
-New Remote Job
-
-Sales Administrator - FT - Work From Home
-
-Savance Workplace • Remote
-
-[Administrative Assistant / Remote] - Anywhere in U.S. / Up to $60,000-yr / Flexible schedule / Health-Dental-Vision / 401(k) matching / Paid time off - As a Sales Administrator at Savance Workplace, 
-
-<a href=""https://www.w",Low,Job_Alert
-Sachin Tivari via LinkedIn <messaging-digest-noreply@linkedin.com>,Sachin just messaged you,"Fri, 3 Jul 2026 17:40:26 +0000 (UTC)","You have 2 new messages
-
-.....................................
-
-Sachin Tivari (Student at Chhatrapati shahuji Maharaj Kanpur)
-(https://in.linkedin.com/in/sachin-tivari-47a11941a)
-
-View messages: https://www.linkedin.com/comm/messaging/thread/2-NjM0NDQ1OTMtYzU3My00MTdlLTk2YmYtNjhkYjA2ZDNjOTExXzEwMA==?lipi=urn%3Ali%3Apage%3Aemail_email_member_message_v2%3BvINUlpb%2BRqOVGpdKSTgh5w%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=3PfOInvVl4tYk1&trk=eml-email_member_message_v2-one_to_one_single_thread_tex",Low,Networking
-LinkedIn <jobs-noreply@linkedin.com>,Your application to Machine Learning Intern - Geospatial AI & World Models at Uncharted AI,"Fri, 3 Jul 2026 16:39:25 +0000 (UTC)","Your update from Uncharted AI
-
-----------------------------------------
-
-This email was intended for Anurag Tiwari (AI Agent Developer | Python · LLMs · Claude API · LangChain · MCP | Building Intelligent Automation | BCA @ CSJMU | Open to AI Internships)
-Learn why we included this: https://www.linkedin.com/help/linkedin/answer/4788?lang=en&lipi=urn%3Ali%3Apage%3Aemail_email_jobs_application_rejected_01%3BZtoKVRC7R%2B68tatbsvd3rw%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=1vtn92oSo7tYk1&trk=eml-e",Medium,Application_Status
-Sachin Tivari via LinkedIn <messaging-digest-noreply@linkedin.com>,Sachin just messaged you,"Fri, 3 Jul 2026 16:08:19 +0000 (UTC)","You have 2 new messages
-
-.....................................
-
-Sachin Tivari (Student at Chhatrapati shahuji Maharaj Kanpur)
-(https://in.linkedin.com/in/sachin-tivari-47a11941a)
-
-View messages: https://www.linkedin.com/comm/messaging/thread/2-NjM0NDQ1OTMtYzU3My00MTdlLTk2YmYtNjhkYjA2ZDNjOTExXzEwMA==?lipi=urn%3Ali%3Apage%3Aemail_email_member_message_v2%3BjSJIIeKRQqeVoR%2B%2F6tM5%2Bw%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=0AULSLDGrEtIk1&trk=eml-email_member_message_v2-one_to_one_single_thread",Low,Networking
-Jobright Job Alert <noreply@jobright.ai>,Rippling just posted a 87% match Software Engineer Intern - Backend Focused - Winter 2027 role 59 minutes ago,"Fri, 3 Jul 2026 15:33:55 +0000","New York, NY / 4+ referrals Jobright Instant Alert Always be the first to apply Jobright.ai Job Icon Rippling Accounting · Late Stage 87% Software Engineer Intern - Backend Focused - Winter 2027 New",Low,Job_Alert
-Sachin Tivari <invitations@linkedin.com>,I want to connect,"Fri, 3 Jul 2026 15:28:39 +0000 (UTC)","Sachin is waiting for your response
-        
-Hi Anurag, I’d like to join your professional network
-
-Sachin Tivari
-Student at Chhatrapati shahuji Maharaj Kanpur
-Kanpur
-Accept:https://www.linkedin.com/comm/mynetwork/invite-accept/invitationId/7478825788755210240/sharedKey/qPjHCuSK/?inviterVanityName=sachin-tivari-47a11941a&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3B9tUq6REmTz2jN%2B6bxVHD%2FQ%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=15nGsx9-r0tIk1&trk=eml-email_m2m_invite_single_0",Low,Networking
-"""The LinkedIn Premium Team"" <linkedin@em.linkedin.com>","[Final reminder] Anurag, try LinkedIn Premium free — our newest plan","Fri, 03 Jul 2026 07:56:29 -0700",Join the early preview group to try Premium Lite ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏,Low,Promotional
-SCALIS EarlyCareers <internships@apexearlycareers.com>,the intern list you can join before the job posts,"Fri, 03 Jul 2026 14:29:12 +0000 (UTC)","###  Signed World Cup Legend Jersey. Every Day. Free.
-
-View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/eac22aaf-9d6e-4a36-bb67-7bc81e47f1f9/falcao_v2.png?t=1782762277)
-Follow image link: (https://app.kalshi.com/1r91/newsletter?utm_campaign=WF3CMGBIUA&utm_source=beehiiv_int&referral=newsletter&_bhiiv=opp_fa5c8cd0-539f-4692-89f8-05e8b8bdf0ce_e1350cbf&bhcl_id=d9ef9fca-2b0c-4ed9-acb0-08c3d4a9d6d5_9233e852-a7ab-4c04-8f3",Low,promotional
-Internshala <student@internshala.com>,Top internships of the week matching your profile,"Fri, 3 Jul 2026 14:16:34 +0000","Anurag, earn high stipend in your preferred field and location. Apply for
-free on Internshala
-&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nb
-sp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
- &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n
-bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
- &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n
-bsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
- &nbsp;&zwnj",Low,Job_Alert
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,Machine Learning Engineer (LLM+RAG+AI Modeling) at Spectral Consultants,"Fri, 3 Jul 2026 14:03:03 +0000 (UTC)","Your job alert for Machine Learning Specialist in India          
-New jobs match your preferences.
-Manage alerts: https://www.linkedin.com/comm/jobs/alerts?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3BZplaDAiKQEidpJF23Lb4Tg%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=0bQ_42X-tHtIk1&trk=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15789116356_fmid_omhpso~mr5069hr~as&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15789116356_fmi",Low,Job_Alert
-LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>,AI/ML Engineer at Invictron,"Fri, 3 Jul 2026 13:28:39 +0000 (UTC)","Your job alert for artificial intelligence engineer in Kanpur          
-New jobs match your preferences.
-Manage alerts: https://www.linkedin.com/comm/jobs/alerts?lipi=urn%3Ali%3Apage%3Aemail_email_job_alert_digest_01%3Bj5xX%2FHV6QfGyV4FVHw776g%3D%3D&midToken=AQE_aw4ByEc5Ew&midSig=3I254HYTN8tIk1&trk=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_15725026828_fmid_omhpso~mr4yyjmz~ak&trkEmail=eml-email_job_alert_digest_01-primary_job_list-0-manage_alerts_text_ssid_1572502",Low,Job_Alert
-INDIA RUNS <admin@no-reply.hack2skill.com>,Submission Hour Open: Submit before 11:59 PM to get featured officially!,"Fri, 3 Jul 2026 13:11:59 +0000","INDIA RUNS Challenge Hey Anurag Tiwari, ATTENTION: SUBMISSION HOUR CHALLENGE IS NOW OPEN! You have spent time exploring the tools, analyzing your workspace metrics, and testing your profile limits",High,Other
-The Token Signal <signal@thetokensignal.com>,Bitcoin’s Comeback? Whales Buy 16.7B While ETFs Finally Stop Bleeding,"Fri, 03 Jul 2026 12:54:01 +0000","Whales are buying aggressively, ETF outflows are slowing, and Bitcoin
-is trying to build its first real recovery in weeks. 
- ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌
-
-
-Hey, 
-
-After weeks of relentless selling, crypto is finally showin",Low,Newsletter
-deloittesh-jobnotification@noreply44.jobs2web.com,New jobs posted from southasiacareers.deloitte.com,"Fri, 03 Jul 2026 12:52:25 +0000",You are receiving this email because you joined the deloitte Talent Community on 5/15/26. You will receive these messages every 7 day(s). Your Job Alert matched the following jobs at southasiacareers.,Low,Job_Alert
-Naukri Campus Jobs <recommendationnc@naukri.com>,"Anurag Tiwari, Urgent Requirement for the role of Intern, Engineer","Fri, 3 Jul 2026 18:08:36 +0530 (IST)","Job recommendations based on your Naukri.com profile
-",Low,Job_Alert
-Indeed <donotreply@jobalert.indeed.com>,"ai developer in Bangalore City, Bengaluru, Karnataka: 20 new jobs","Fri, 03 Jul 2026 12:46:23 +0000","Indeed Job Alert
-20 new ai developer vacancies in Bangalore City, Bengaluru, Karnataka
-
-Jobs 1-20 of 20 new jobs
-See matching results on Indeed: https://in.indeed.com/jobs?q=ai+developer&hl=en&from=ja&l=Bangalore+City%2C+Bengaluru%2C+Karnataka&radius=25&alid=6a3ba37a5e6daf10a812ac16&tmtk=1jsk08433g5dq800&utm_campaign=job_alerts&utm_medium=email&utm_source=jobseeker_emails&of=1&fr=t
-
-
-DS/ML Intern
-Epifi Technologies - Bengaluru, Karnataka
-Interest in developer-productivity, code analytics, or Dev",Low,Job_Alert
+subject,date,expected_urgency,expected_topic
+Your resume gets 6 Seconds. Make them count.,"Sun, 05 Jul 2026 21:18:28 +0530",Low,Promotional
+ByteDance just posted a 86% match Student Researcher (LLM - Seed) - 2027 Start (BS/MS) role 1 hour ago,"Sun, 5 Jul 2026 15:41:42 +0000",Low,Job_Alert
+Research Engineer at Aurora,"Sun, 5 Jul 2026 15:29:12 +0000 (UTC)",Low,Job_Alert
+"ai developer in Bangalore City, Bengaluru, Karnataka: 19 new jobs","Sun, 05 Jul 2026 14:16:55 +0000",Low,Job_Alert
+15+ new internships for Python/Django profile,"Sun, 5 Jul 2026 14:11:23 +0000",Low,Job_Alert
+AI Engineer (Agentic Systems) at SureBright: up to ₹3M/year,"Sun, 5 Jul 2026 14:02:37 +0000 (UTC)",Low,Job_Alert
+Python Engineer - GenAI at Finoit Inc,"Sun, 5 Jul 2026 13:28:37 +0000 (UTC)",Low,Job_Alert
+Your resignation can quietly ruin your next offer,"Sun, 5 Jul 2026 18:38:46 +0530 (IST)",Low,Newsletter
+Update: Carnival is closing tomorrow,"Sun, 05 Jul 2026 12:48:13 +0000 (UTC)",Low,Job_Alert
+"Legion AI, CryptoRanks Wiki, Maintouch, DropSwap, Softlaunch, and more","Sun, 05 Jul 2026 12:20:54 +0000",Low,Newsletter
+🚀 Going Viral Right Now,"Sun, 05 Jul 2026 17:35:15 +0530",Low,Promotional
+From GPUs to Grid Stress: The Real Infrastructure Challenge Behind AI,"Sun, 5 Jul 2026 12:00:34 +0000 (UTC)",Low,Newsletter
+You have an invitation ✉️,"Sun, 5 Jul 2026 11:28:37 +0000 (UTC)",Low,Networking
+AryaXAI: Apply Now,"Sun, 05 Jul 2026 11:18:20 +0000 (UTC)",Low,Job_Alert
+development intern in Remote: 21 new jobs,"Sun, 05 Jul 2026 11:06:01 +0000",Low,Job_Alert
+"ai/ml engineer in Nirman Nagar, Jaipur, Rajasthan: 2 new jobs","Sun, 05 Jul 2026 10:41:06 +0000",Low,Job_Alert
+engineering intern in Remote: 10 new jobs,"Sun, 05 Jul 2026 10:07:48 +0000",Low,Job_Alert
+AI Implementation & Training Specialist — Full-Time Remote Contract with U.S. Companies at Kevin M. Downey,"Sun, 5 Jul 2026 09:28:37 +0000 (UTC)",Low,Job_Alert
+"Software Developer Intern at Scrollfuel and 8 more jobs in Nāgpur, Maharashtra for you. Apply Now.","Sun, 05 Jul 2026 09:24:06 +0000 (UTC)",Low,Job_Alert
+"Anurag, Remember This?","Sun, 5 Jul 2026 07:59:10 +0000",Low,Promotional
+AI Engineer (Agentic Systems) at SureBright: up to ₹3M/year,"Sun, 5 Jul 2026 07:29:03 +0000 (UTC)",Medium,Job_Alert
+24 Hours Remaining | Submit Your Hackathon Project,"Sun, 5 Jul 2026 05:51:04 +0000",High,Other
+Agentic AI Engineer at BayOne Solutions,"Sun, 5 Jul 2026 05:28:37 +0000 (UTC)",Low,Job_Alert
+"Reviews, Salaries & Interview Questions of Companies you Applied to","Sun, 5 Jul 2026 09:28:27 +0530 (IST)",Low,Newsletter
+"Anurag, these PHP, Python, and Software Architecture projects might interest you","Sun, 05 Jul 2026 01:03:47 -0400",Low,Job_Alert
+AryaXAI: What You Need to Know,"Sun, 05 Jul 2026 04:01:21 +0000 (UTC)",Low,Job_Alert
+“llm jobs”: Delphie Consulting services - Artificial Intelligence Engineer posted on 7/4/26,"Sun, 5 Jul 2026 03:28:57 +0000 (UTC)",Low,Job_Alert
+You applied for 1 job on 04 Jul,"Sun, 5 Jul 2026 06:00:21 +0530 (IST)",Low,Application_Status
+Remote Job Alert: FT HR Administrative Assistant (Work From Home) at Superpedestrian,"Sun, 5 Jul 2026 00:22:27 +0000",Low,Job_Alert
+ai developer in Remote: 22 new jobs,"Sat, 04 Jul 2026 23:40:46 +0000",Low,Job_Alert
+Accounts Payable Specilaist - Full Time - Work From Home at Decision Information Resources Inc,"Sat, 4 Jul 2026 23:21:18 +0000",Low,Job_Alert
+Software Developer - AI Trainer role at DataAnnotation: you would be a great fit!,"Sat, 04 Jul 2026 23:20:45 +0000 (UTC)",Low,Job_Alert
+Sample emails for sending your resume to recruiters,"Sat, 04 Jul 2026 22:45:32 +0000",Low,Newsletter
+AI Or ML Engineer at UnitedHealth Group and 11 more jobs in India for you. Apply Now.,"Sat, 04 Jul 2026 22:04:06 +0000 (UTC)",Low,Job_Alert
+"Software Developer Intern at Sagemind Analytics Private Limited and 9 more jobs in Remote, India for you. Apply Now.","Sat, 04 Jul 2026 21:49:18 +0000 (UTC)",Low,Job_Alert
+"Milestone Technologies, Voye Homes is hiring in Cochin. Apply Now.","Sat, 04 Jul 2026 21:33:36 +0000 (UTC)",Low,Job_Alert
+AI/MI Enginner -5+ Yrs-Pune -Onsite at IQLEXA Technologies Pvt. Ltd and 10 more jobs in Pune for you. Apply Now.,"Sat, 04 Jul 2026 21:30:23 +0000 (UTC)",Low,Job_Alert
+Junior AI Developer at CivicDataLab and 11 more jobs in Noida for you. Apply Now.,"Sat, 04 Jul 2026 21:23:11 +0000 (UTC)",Low,Job_Alert
+VaVa Virtual Assistants is hiring now...,"Sat, 4 Jul 2026 21:21:15 +0000",Low,Job_Alert
+"Lovable AI Developer at Parrot AI Private Limited and 10 more jobs in Remote, India for you. Apply Now.","Sat, 04 Jul 2026 21:06:03 +0000 (UTC)",Low,job_alert
+New Surveys Available for You,"Sat, 4 Jul 2026 21:00:21 +0000",Low,promotional
+Your Top Job matches for “Machine Learning Engineer Intern” — 98% match from Jobright - 07/04/2026,"Sat, 4 Jul 2026 20:09:12 +0000",Low,Job_Alert
+New jobs for:  Information Technology : Bangalore Urban,"Sat, 04 Jul 2026 12:46:43 -0600",Low,Job_Alert
+Remote Job Alert: Sales Administrator - FT - Work From Home at Savance Workplace,"Sat, 4 Jul 2026 18:19:08 +0000",Low,Job_Alert
+Update: your participation status update is pending,"Sat, 04 Jul 2026 15:11:30 +0000 (UTC)",Medium,Application_Status
+CodeVertex Innovations LLC just posted a 84% match Machine Learning Engineer role 1 hour ago,"Sat, 4 Jul 2026 15:02:59 +0000",Low,Job_Alert
+NayePankh Foundation is promoting Machine Learning internship!,"Sat, 4 Jul 2026 14:15:23 +0000",Low,Job_Alert
+"ai developer in Bangalore City, Bengaluru, Karnataka: 21 new jobs","Sat, 04 Jul 2026 12:51:57 +0000",Low,Job_Alert
+"Lotto Predictions, Smart Post Studio, VoiceMe, Siamang Cloud, TinyTemp, and more","Sat, 04 Jul 2026 12:20:54 +0000",Low,Newsletter
+The AI Infrastructure Race Is Becoming an Energy Race,"Sat, 4 Jul 2026 12:04:20 +0000 (UTC)",Low,Newsletter
+engineering intern in Remote: 11 new jobs,"Sat, 04 Jul 2026 11:54:40 +0000",Low,job_alert
+GenAI / Agentic AI Engineer at Infosys,"Sat, 4 Jul 2026 11:28:38 +0000 (UTC)",Low,Job_Alert
+development intern in Remote: 20 new jobs,"Sat, 04 Jul 2026 11:17:11 +0000",Low,Job_Alert
+Why recruiters aren't finding your profile,"Sat, 4 Jul 2026 16:20:56 +0530 (IST)",Low,Job_Alert
+"ai/ml engineer in Nirman Nagar, Jaipur, Rajasthan: 2 new jobs","Sat, 04 Jul 2026 10:07:56 +0000",Low,Job_Alert
+AI / ML Engineer at Accenture services Pvt Ltd,"Sat, 4 Jul 2026 09:28:37 +0000 (UTC)",Low,Job_Alert
+"PHP Laravel Developer at Hesten Solutions and 6 more jobs in Nāgpur, Maharashtra for you. Apply Now.","Sat, 04 Jul 2026 09:25:08 +0000 (UTC)",Low,Job_Alert
+"Anurag, Remember This?","Sat, 4 Jul 2026 07:50:54 +0000",Low,Promotional
+“llm jobs”: Infosys - GenAI / Agentic AI Engineer posted on 7/3/26,"Sat, 4 Jul 2026 07:29:51 +0000 (UTC)",Low,Job_Alert
+Show your Python expertise to recruiters!,"Sat, 4 Jul 2026 11:11:52 +0530 (IST)",Low,Promotional
+Your dream career starts here,"Sat, 04 Jul 2026 05:32:49 +0000 (UTC)",Low,Promotional
+Software Engineering Intern at Career Launch Tech Initiative,"Sat, 4 Jul 2026 05:28:49 +0000 (UTC)",Low,Job_Alert
+"Anurag, these PHP, Python, and Web Development projects might interest you","Sat, 04 Jul 2026 01:08:46 -0400",Low,Job_Alert
+48 Hours Left to Submit Your Prototype,"Sat, 4 Jul 2026 03:50:11 +0000",High,Other
+Data Scientist (ML/AI) at Philips,"Sat, 4 Jul 2026 03:28:58 +0000 (UTC)",Low,Job_Alert
+Sachin just messaged you,"Sat, 4 Jul 2026 01:13:50 +0000 (UTC)",Low,Networking
+TicketNetwork has an open remote position...,"Sat, 4 Jul 2026 00:17:11 +0000",Low,Job_Alert
+Home Health Occupational Therapist (OT) at Aveanna Healthcare,"Sat, 4 Jul 2026 00:06:26 +0000",Low,Job_Alert
+Platform Engineer - AI Trainer role at DataAnnotation: you would be a great fit!,"Fri, 03 Jul 2026 23:24:36 +0000 (UTC)",Low,Job_Alert
+ai developer in Remote: 22 new jobs,"Fri, 03 Jul 2026 23:22:01 +0000",Low,Job_Alert
+"Software Developer Intern at Sagemind Analytics Private Limited and 10 more jobs in Remote, India for you. Apply Now.","Fri, 03 Jul 2026 23:15:39 +0000 (UTC)",Low,Job_Alert
+AryaXAI: What You Need to Know,"Fri, 03 Jul 2026 23:01:02 +0000 (UTC)",Low,Job_Alert
+Vedio Editor & AI Animator at JSRY Properties and 10 more jobs in India for you. Apply Now.,"Fri, 03 Jul 2026 21:34:32 +0000 (UTC)",Low,Job_Alert
+Latest “Machine Learning Engineer Intern” jobs you might like — 98% match from Jobright - 07/03/2026,"Fri, 3 Jul 2026 21:17:15 +0000",Low,Job_Alert
+Remote Job Alert: Administrative Coordinator - FT - Work From Home at Guardian HR Inc,"Fri, 3 Jul 2026 21:16:13 +0000",Low,Job_Alert
+"Software Developer Intern at Sagemind Analytics Private Limited and 9 more jobs in Remote, India for you. Apply Now.","Fri, 03 Jul 2026 20:49:29 +0000 (UTC)",Low,Job_Alert
+AI Engineer Intern at Shyena Tech Yarns and 8 more jobs in Pune for you. Apply Now.,"Fri, 03 Jul 2026 20:49:24 +0000 (UTC)",Low,Job_Alert
+New jobs in Cochin. Apply Now.,"Fri, 03 Jul 2026 20:47:16 +0000 (UTC)",Low,Job_Alert
+New jobs for:  Information Technology : Bangalore Urban,"Fri, 03 Jul 2026 14:39:08 -0600",Low,Job_Alert
+Take 50% off Pro. Take back your day.,"Fri, 03 Jul 2026 20:16:48 +0000",Low,Promotional
+AI Engineer at Sinro Robotics and 9 more jobs in India for you. Apply Now.,"Fri, 03 Jul 2026 19:46:30 +0000 (UTC)",Low,Job_Alert
+AI/ML Researcher at NK Securities Research and 11 more jobs in Noida for you. Apply Now.,"Fri, 03 Jul 2026 19:44:42 +0000 (UTC)",Low,Job_Alert
+Your June 2026 slice bank statement is here,"Fri, 3 Jul 2026 19:28:36 +0000",Low,Other
+The Monthly Build - Google Developer Program - July 2026,"Fri, 03 Jul 2026 11:56:04 -0700",Low,Newsletter
+Savance Workplace just posted a remote job...,"Fri, 3 Jul 2026 18:14:25 +0000",Low,Job_Alert
+Sachin just messaged you,"Fri, 3 Jul 2026 17:40:26 +0000 (UTC)",Low,Networking
+Your application to Machine Learning Intern - Geospatial AI & World Models at Uncharted AI,"Fri, 3 Jul 2026 16:39:25 +0000 (UTC)",Medium,Application_Status
+Sachin just messaged you,"Fri, 3 Jul 2026 16:08:19 +0000 (UTC)",Low,Networking
+Rippling just posted a 87% match Software Engineer Intern - Backend Focused - Winter 2027 role 59 minutes ago,"Fri, 3 Jul 2026 15:33:55 +0000",Low,Job_Alert
+I want to connect,"Fri, 3 Jul 2026 15:28:39 +0000 (UTC)",Low,Networking
+"[Final reminder] Anurag, try LinkedIn Premium free — our newest plan","Fri, 03 Jul 2026 07:56:29 -0700",Low,Promotional
+the intern list you can join before the job posts,"Fri, 03 Jul 2026 14:29:12 +0000 (UTC)",Low,promotional
+Top internships of the week matching your profile,"Fri, 3 Jul 2026 14:16:34 +0000",Low,Job_Alert
+Machine Learning Engineer (LLM+RAG+AI Modeling) at Spectral Consultants,"Fri, 3 Jul 2026 14:03:03 +0000 (UTC)",Low,Job_Alert
+AI/ML Engineer at Invictron,"Fri, 3 Jul 2026 13:28:39 +0000 (UTC)",Low,Job_Alert
+Submission Hour Open: Submit before 11:59 PM to get featured officially!,"Fri, 3 Jul 2026 13:11:59 +0000",High,Other
+Bitcoin’s Comeback? Whales Buy 16.7B While ETFs Finally Stop Bleeding,"Fri, 03 Jul 2026 12:54:01 +0000",Low,Newsletter
+New jobs posted from southasiacareers.deloitte.com,"Fri, 03 Jul 2026 12:52:25 +0000",Low,Job_Alert
+"Anurag Tiwari, Urgent Requirement for the role of Intern, Engineer","Fri, 3 Jul 2026 18:08:36 +0530 (IST)",Low,Job_Alert
+"ai developer in Bangalore City, Bengaluru, Karnataka: 20 new jobs","Fri, 03 Jul 2026 12:46:23 +0000",Low,Job_Alert
