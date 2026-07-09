@@ -1,3 +1,8 @@
+import os
+print("DEBUG /etc/secrets exists:", os.path.exists('/etc/secrets'))
+print("DEBUG contents:", os.listdir('/etc/secrets') if os.path.exists('/etc/secrets') else "N/A")
+
+
 """
 Configuration constants for the AI Email Triage Agent.
 """
