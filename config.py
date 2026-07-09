@@ -15,8 +15,8 @@ GMAIL_SCOPES = [
     'https://www.googleapis.com/auth/gmail.modify',
 ]
 
-CREDENTIALS_FILE = 'credentials.json'
-TOKEN_FILE = 'token.json'
+CREDENTIALS_FILE = '/etc/secrets/credentials.json' if os.path.exists('/etc/secrets/credentials.json') else 'credentials.json'
+TOKEN_FILE = '/etc/secrets/token.json' if os.path.exists('/etc/secrets/token.json') else 'token.json'
 
 # ─── Email Fetching ──────────────────────────────────────────────────────────
 MAX_EMAILS = 20
