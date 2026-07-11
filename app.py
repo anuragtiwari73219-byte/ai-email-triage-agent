@@ -19,12 +19,7 @@ app = Flask(__name__)
 gmail = GmailService()
 agent = EmailTriageAgent()
 
-# Auto-authenticate at startup using the token already present in /etc/secrets
-try:
-    gmail.authenticate()
-    print(f"[OK] Authenticated as {gmail.user_email}")
-except Exception as e:
-    print(f"[X] Auth failed at startup: {e}")
+# Startup auto-authentication removed for security -- do not load a personal token globally.
 
 # In-memory store for triaged emails
 triage_store = {
