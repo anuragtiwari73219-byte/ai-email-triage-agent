@@ -1,5 +1,4 @@
 # 📧 AI Email Triage Agent
-
 An AI agent that automatically categorizes emails by urgency and topic, and drafts replies — powered by Groq (LLaMA 3.3 70B) and LangChain.
 
 ## 🔗 Live Demo
@@ -32,6 +31,6 @@ Note: this is a dev set used during prompt tuning, not a held-out test set. Eval
 git clone https://github.com/anuragtiwari73219-byte/ai-email-triage-agent
 cd ai-email-triage-agent
 pip install -r requirements.txt
-# Add GROQ_API_KEY to .env
-uvicorn demo_app:app --reload
+# Add GROQ_API_KEY and GITHUB credentials to .env
+uvicorn app:app --reload
 ```
