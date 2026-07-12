@@ -1,8 +1,8 @@
 # 📧 AI Email Triage Agent
 An AI agent that automatically categorizes emails by urgency and topic, and drafts replies — powered by Groq (LLaMA 3.3 70B) and LangChain.
 
-## 🔗 Live Demo
-👉  👉 Live demo temporarily disabled — see setup instructions to run locally
+## 🎥 Demo Video
+Live Gmail connect is disabled on the public web demo for security reasons (see note below). Watch the full working flow here: https://youtu.be/yGKZDPF96Lo
 
 ## 💡 Problem It Solves
 Inbox overload. This agent reads emails, classifies them as High/Medium/Low urgency and by topic, and auto-drafts replies for non-critical ones.
