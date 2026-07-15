@@ -20,7 +20,6 @@ class EmailTriageAgent:
                 temperature=0,
             )
         return self._llm
-
     def categorize_email(self, email):
         prompt = ChatPromptTemplate.from_messages([
             ("system", """You are an expert AI email triage assistant. Analyze the given email and categorize it.
@@ -50,18 +49,35 @@ Examples:
 - "X wants to connect on LinkedIn" -> Networking
 - "Weekly newsletter/digest content" -> Newsletter
 
-Return your response as a valid JSON object with exactly these fields:
-- "urgency": one of "High", "Medium", "Low"
-- "topic": one of "Job_Alert", "Application_Status", "Networking", "Newsletter", "Promotional", "Finance", "Spam", "Personal", "Other"
-- "summary": a concise 1-2 sentence summary
-- "needs_human_attention": boolean
-- "reason": brief explanation
-
-Return ONLY the JSON object."""),
+Use the categorize tool to return your analysis."""),
             ("human", "From: {sender}\nSubject: {subject}\nDate: {date}\n\nBody:\n{body}"),
         ])
 
-        chain = prompt | self.llm
+        categorize_tool = [
+            {
+                "name": "categorize",
+                "description": "Categorize the email by urgency and topic.",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "urgency": {
+                            "type": "string",
+                            "enum": ["High", "Medium", "Low"],
+                        },
+                        "topic": {
+                            "type": "string",
+                            "enum": ["Job_Alert", "Application_Status", "Networking", "Newsletter", "Promotional", "Finance", "Spam", "Personal", "Other"],
+                        },
+                        "summary": {"type": "string"},
+                        "needs_human_attention": {"type": "boolean"},
+                        "reason": {"type": "string"},
+                    },
+                    "required": ["urgency", "topic", "summary", "needs_human_attention", "reason"],
+                },
+            }
+        ]
+        llm_with_tools = self.llm.bind_tools(categorize_tool, tool_choice="required")
+        chain = prompt | llm_with_tools
         last_error = None
 
         for attempt in range(4):
@@ -72,15 +88,9 @@ Return ONLY the JSON object."""),
                     "date": email.get('date', ''),
                     "body": (email.get('body') or email.get('snippet', ''))[:3000],
                 })
-                content = response.content.strip()
-                if content.startswith('```'):
-                    content = content.split('\n', 1)[1].rsplit('```', 1)[0].strip()
-                if content.startswith('{'):
-                    result = json.loads(content)
-                else:
-                    start = content.find('{')
-                    end = content.rfind('}') + 1
-                    result = json.loads(content[start:end])
+                if not response.tool_calls:
+                    raise ValueError("No tool call returned by model")
+                result = response.tool_calls[0]['args']
                 result.setdefault('urgency', 'Medium')
                 result.setdefault('topic', 'Other')
                 result.setdefault('summary', '')
@@ -101,6 +111,9 @@ Return ONLY the JSON object."""),
             "needs_human_attention": True,
             "reason": f"Failed: {str(last_error)}",
         }
+     
+
+    
 
     def decide_action(self, email, categorization):
         """
@@ -200,6 +213,8 @@ Pick the single correct action tool."""),
                 action_name = call['name']
                 reasoning = call['args'].get('reasoning', '')
 
+               
+
                 if action_name not in ('draft_reply', 'flag_urgent', 'archive_silently'):
                     raise ValueError(f"Unknown tool returned: {action_name}")
 
@@ -207,8 +222,12 @@ Pick the single correct action tool."""),
                 # Personal/Networking emails already flagged as needing
                 # human attention must not be silently archived, regardless
                 # of what the LLM's tool call says.
+                #  # Application_Status added after observing categorization
+                # itself flip between Networking/Application_Status for
+                # the same ambiguous recruiter-type email (~33% flip rate,
+                # 6-run test).
                 if (action_name == 'archive_silently'
-                        and categorization.get('topic') in ('Personal', 'Networking')
+                        and categorization.get('topic') in ('Personal', 'Networking','Application_Status')
                         and categorization.get('needs_human_attention')):
                     action_name = 'draft_reply'
                     reasoning = f"[override: topic requires attention] {reasoning}"
