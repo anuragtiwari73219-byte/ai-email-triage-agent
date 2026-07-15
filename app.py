@@ -105,6 +105,7 @@ def run_triage():
                 print(f"[{i+1}/{len(emails)}] {email.get('subject', '?')[:60]}")
 
                 categorization = agent.categorize_email(email)
+                decision = agent.decide_action(email, categorization)
 
                 email_result = {
                     **email,
@@ -113,12 +114,13 @@ def run_triage():
                     'ai_summary': categorization.get('summary', ''),
                     'needs_human_attention': categorization.get('needs_human_attention', False),
                     'reason': categorization.get('reason', ''),
+                    'agent_action': decision['action'],
+                    'agent_reasoning': decision['reasoning'],
                     'draft_reply': None,
                     'draft_id': None,
                 }
 
-                # High urgency → flag only
-                if email_result['urgency'] == 'High':
+                if decision['action'] == 'flag_urgent':
                     email_result['needs_human_attention'] = True
                     try:
                         gmail.add_urgent_label(email['id'])
@@ -126,8 +128,7 @@ def run_triage():
                     except Exception as e:
                         print(f"  [X] Flag error: {e}")
 
-                # Medium / Low → auto-draft
-                elif email_result['urgency'] in ['Medium', 'Low']:
+                elif decision['action'] == 'draft_reply':
                     try:
                         draft_text = agent.draft_reply(email)
                         email_result['draft_reply'] = draft_text
@@ -149,13 +150,17 @@ def run_triage():
                     except Exception as e:
                         print(f"  [X] Draft error: {e}")
 
+                elif decision['action'] == 'archive_silently':
+                    email_result['needs_human_attention'] = False
+                    print(f"  [A] Archived silently: {email.get('subject','')[:40]}")
+
                 with lock:
                     triaged_map[i] = email_result
                     triage_store['progress'] = len(triaged_map)
 
                 return i, email_result
 
-            # Run up to 3 emails in parallel (respects Gemini free tier limits)
+            # Run up to 3 emails in parallel (respects Groq free tier limits)
             with ThreadPoolExecutor(max_workers=3) as executor:
                 futures = [executor.submit(process_one, (i, e)) for i, e in enumerate(emails)]
                 for future in as_completed(futures):
@@ -225,6 +230,9 @@ def create_draft():
 
     if not target_email:
         return jsonify({'error': 'Email not found in triage results.'}), 404
+    no_reply_topics = ('Promotional', 'Newsletter', 'Spam', 'Finance', 'Job_Alert')
+    if target_email.get('topic') in no_reply_topics:
+        return jsonify({'error': f"Can't draft a reply for a {target_email.get('topic')} email."}), 400
 
     try:
         # Generate draft with AI
